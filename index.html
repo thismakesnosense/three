@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>Code Quiz</h1>
+
+        <form id="quiz" name="quiz">
+
+        <p>What controls style on a web page?</p>
+        <input type="radio" id="mc" name="question1" value="style"> style<br>
+        <input type="radio" id="mc" name="question1" value="css"> css<br>
+        <input type="radio" id="mc" name="question1" value="html"> html<br>
+
+        <p>What tag should wrap the entire html?</p>
+        <input type="radio" id="mc" name="question2" value="body"> body<br>
+        <input type="radio" id="mc" name="question2" value="script"> script<br>
+        <input type="radio" id="mc" name="question2" value="html"> html<br>
+
+        <p>What controls script on a web page?</p>
+        <input type="radio" id="mc" name="question3" value="java"> java<br>
+        <input type="radio" id="mc" name="question3" value="css"> css<br>
+        <input type="radio" id="mc" name="question3" value="html"> html<br>
+
+        <input id="button" type="button" value="Done!" onclick="check();">
+        
+        </form>
+        <div id="after_submit">
+            <p id="number_correct"></p>
+        </div>
+    </body>
+</html>
